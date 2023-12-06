@@ -314,9 +314,13 @@ body{
     border-radius: 30px;
     width: 100%;
     padding: 15px;
+    color:#EB33BB;
+    font-weight: bold;
+    font-size: 20px;
   }
   
 .campo{
+    
     margin-top: 15px;
     padding: 10px;
     text-align: center;
