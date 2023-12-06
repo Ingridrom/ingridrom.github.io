@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INGRID-PORTFOLIO</title>
+    <link rel="icon" type="img/" href="SRC/INGRID.png" > <!--icono página-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/style.css">
+  
+  </head>
+<header>
+  <!--INICIA NAVBAR-->
+<!--corroborar clases-->
+
+  <nav class="navbar navbar-expand-lg" id="barnav">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"> 
+        <img src="SRC/Logo.png" class="logo" alt="logo" width="150px">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#aboutme">About me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#porta">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+    <!--TERMINA NAVBAR-->
+
+    <!--empieza home-->
+    <body>
+    <section id="home">
+      <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+          <div class="m-card">
+            <div class="card-body">
+              <div class="type_wtr">
+              <h1>&ltHi there!&gt</h1>
+              <h1> My name is</h1>
+            </div>
+              <img src="SRC/Nombre.png" class="card-img-top" alt="name">
+              <div id="song">
+                <img src="SRC/cd.png" alt="cd" width="30px">
+                <audio src="audio/BarbieGirl.mp3" controls="controls" preload="none"> JUST A SONG</audio> <!--pensar si poner autplay-->
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="m-card">
+            <img src="SRC/INGRID.png" card-img-top" alt="image">
+            <p>
+              <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+                Who am I?
+              </button>
+            </p>
+            <!--collapse button-->
+            <div style="min-height: 120px;">
+              <div class="collapse collapse-horizontal" id="collapseWidthExample">
+                <div class="card card-body" style="min-width: 300px; font-size: 35px;">
+                  I am a Nanotechnology graduate with a strong passion for science and technology. 
+                  Recently transitioning to web development as a full-stack developer.
+                </div>
+              </div>
+            </div>
+        
+        
+        </div>
+        </div>
+      </div>
+  </section>
+  
+
+ 
+  <section id="aboutme">
+     <!--animation-->
+      <div class="cont">
+      <div id="title">
+          <h5 class="textanimation"> C'mon, join me. Let's programming...</h5>
+        </div>
+        <a href="Docs/CV_Ingrid.pdf" download="Docs/CV_Ingrid.pdf"><button type="button" class="btn btn-primary">DOWNLOAD MY CV</button></a>
+    <div class="car">
+      <img src="SRC/car.png" alt="carro">
+    </div>
+  </div> 
+  </section>
+
+  <!--SKILLS-->
+<section id="skills">
+  <div class="titles"> <h1> Skills.</h1>
+  </div>
+  <div class="skill">
+  <div class="row row-cols-2 row-cols-md-4 g-4">
+    <div class="col">
+      <div class="scard">
+        <img src="SRC/html.png"  alt="...">
+      </div>
+    </div>
+    <div class="col">
+      <div class="scard">
+        <img src="SRC/css.png" class="card-img-top" alt="...">
+      </div>
+    </div>
+    <div class="col">
+      <div class="scard">
+        <img src="SRC/js.png" class="card-img-top" alt="...">
+      </div>
+    </div>
+    <div class="col">
+      <div class="scard">
+        <img src="SRC/git.png" class="card-img-top" alt="...">
+      </div>
+    </div>
+    <div class="col">
+      <div class="scard">
+        <img src="SRC/mysql.png" class="card-img-top" alt="...">
+      </div>
+    </div>
+    <div class="col">
+      <div class="scard">
+        <img src="SRC/Figma.png" class="card-img-top" alt="...">
+      </div>
+    </div>
+    <div class="col">
+      <div class="scard">
+        <img src="SRC/office.png" class="card-img-top" alt="...">
+      </div>
+    </div>
+    <div class="col">
+      <div class="scard">
+        <img src="SRC/vscode.png" class="card-img-top" alt="...">
+      </div>
+    </div>
+    
+    
+    
+  </div> <!--cards-->
+  
+  
+</section>
+
+        <!--PORTFOLIO-->
+
+        <section id="porta">
+          <div class="titles"> <h1>Portfolio.</h1>
+          </div>
+        <div id="carouselExample" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="cards-container">
+              <div class="card">
+                <img src="SRC/Solu.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">IT services website</h5>
+                  <p class="card-text"> This page was built for a company that offers IT services.</p>
+                  <a href="https://sandramolko.github.io/MagicSoft/index.html" target="_blank" class="btn btn-primary">View Live Demo</a>
+                  
+                  
+                </div>
+              </div>
+              <div class="card"> <!--d-none d-md-block: this class  hides content en smaller screens-->
+                <img src="SRC/CENTRO.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Communitary center</h5>
+                  <p class="card-text">This page was built for a women communitary center.</p>
+                  <a href="#" class="btn btn-primary">View Live Demo</a>
+                  
+                </div>
+              </div>
+              <div class="card d-none d-md-block">
+                <img src="SRC/CARDS.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Colorful cards</h5>
+                  <p class="card-text">This page shows 3 colorful cards with a hover effect.</p>
+                  <a href="#" class="btn btn-primary">View Live Demo</a>
+                </div>
+              </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="cards-container">
+              <div class="card">
+                <img src="SRC/alert.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Pop-up message</h5>
+                  <p class="card-text">An example of an pop-up message, that shows on click.</p>
+                  <a href="https://ingridrom.github.io/Projects/" target="_blank" class="btn btn-primary">View Live Demo</a>
+                </div>
+              </div>
+              <div class="card ">
+                <img src="SRC/CARDS.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Colorful cards</h5>
+                  <p class="card-text">This page shows 3 colorful cards with a hover effect.</p>
+                  <a href="#" class="btn btn-primary">View Live Demo</a>
+                </div>
+              </div>
+              <div class="card d-none d-md-block ">
+                <img src="SRC/CENTRO.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Communitary center</h5>
+                  <p class="card-text">This page was built for a women communitary center</p>
+                  <a href="#" class="btn btn-primary">View Live Demo</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden"></span>
+          </button>
+        </div>
+    </section>
+
+
+<!--contacto-->
+<section id="contact">
+  <div class="titles"> <h1>Don't be a stranger.</h1>
+    <h3>Let's make something amazing together. Contact me. </h3>
+  </div>
+  <div class="container">
+    <div id="alert_container">   
+    </div>
+    <form id="contact-form">
+      <div class="campo">
+          <input type="text" placeholder="Name" id="user_name">
+      </div>
+      <div class="campo">
+        <input type="text" placeholder="Email" id="user_email">
+    </div>
+      <div class="campo">
+        <p>Additional information</p>
+          <textarea placeholder="Insert adittional information" id="message4me"></textarea>
+      </div>
+      <div>
+        <input type="submit" value="Send" id="submit" class="btn btn-primary">
+      </div>
+    </form>
+
+</section>
+
+<!--footer-->
+<footer>
+  <div id="footer">
+    <div class="titles"> 
+      <h1>Contact me</h1>
+    </div>
+
+    <!--social-->
+    <ul class="social">
+      <li>
+        <a href="https://www.linkedin.com/in/ingrid-romero-a32679222/" target="_blank">
+          <img src="SRC/linkedin.png" class="social-item" alt="linkedin">
+      </a>
+        <a href="https://github.com/Ingridrom" target="_blank">
+          <img src="SRC/github.png" class="social-item" alt="github">
+        </a>
+      </li>
+    </ul>
+  </div>
+</footer>
+
+
+
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js" ></script>
+   <script src="JS/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+   <!-- <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>-->
+
+
+
+  </body>
+</html>
