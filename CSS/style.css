@@ -276,7 +276,7 @@ text-transform:uppercase;
   height: 5vh;
   border-radius: 50%;
   top: 50%;
-  transform: translateY(-80%);
+  transform: translateY(40%);
 }
 
 /*contact*/
@@ -327,8 +327,8 @@ text-transform:uppercase;
      background-color: #F4A2D0;
      text-align: center;
      height: 200px;
-     padding:30px;
-     margin-bottom: 40px;
+     padding-top:30px;
+     margin-bottom: 100px;
      color: white;
  }
  
