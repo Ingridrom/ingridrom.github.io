@@ -18,6 +18,7 @@ body{
     font-family: 'Dancing Script', cursive;
     font-family: 'Lobster', sans-serif;
     font-family: 'Shadows Into Light', cursive;
+    background-image: url(https://img1.picmix.com/output/stamp/normal/5/0/9/8/1308905_3b231.gif);
 }
 
 .btn{
@@ -95,7 +96,7 @@ body{
 
 .type_wtr h1 {
     overflow: hidden;
-    animation: typing 3s steps(40, end), blink .5s step-end infinite;
+    animation: typing 2s steps(50, end), blink .5s step-end infinite;
 
   }
   @keyframes typing {
