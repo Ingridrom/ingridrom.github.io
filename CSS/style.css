@@ -26,7 +26,7 @@ body{
     font-size: 20px;
     border-radius: 20px;
     padding: 10px 10px;
-    font-weight: 600;
+    font-weight: 100;
     color:white;
     box-shadow: 5px 5px 5px 0  rgba(23, 23, 14, 0.6);
     transition: transform 0.5s, 2s linear infinite;
@@ -316,7 +316,6 @@ body{
     width: 100%;
     padding: 15px;
     color:#EB33BB;
-    font-weight: bold;
     font-size: 20px;
   }
   
